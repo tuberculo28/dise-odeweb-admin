@@ -1,0 +1,100 @@
+
+#fondo {
+    background: linear-gradient(black, blue);
+}
+
+#margen {
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.buttom {
+    float: right;
+    background-color: #000000;
+    color: white;
+    border: blue;
+}
+
+
+#cabeza {
+    display: flex;
+    justify-content: space-around;
+}
+
+.angosto {
+    height: 20px;
+    margin-top: 2em;
+    background-color: #000000;
+    color: white;
+    border: blue;
+}
+.angosto:hover{
+    border-color: #6ad0ff;
+}
+.imgbotines {
+    height: 200px;
+    width: 200px;
+    border: solid black 8px;
+    transition: transform 200ms;
+}
+
+.imgbotines:hover{
+    cursor: pointer;
+    border-color: #6ad0ff ;
+    transform: scale(1.2);
+
+}
+
+
+#grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px,auto));
+    grid-template-rows: repeat(4, auto);
+    gap: 4rem;
+    list-style: none;
+}
+
+.percio {
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+
+#botin1 {
+    background: black;
+    transition: transform 200ms;
+}
+
+#botin1 :hover {
+    cursor: pointer;
+    background-color: rgb(91, 174, 185);
+    transform: scale(1.2);
+        
+}
+
+#contenedor {
+    color: white;
+    border-top: 2px solid #9260c3;
+    display: flex;
+    justify-content: center;
+}
+
+#titok {
+    margin-left: 50px;
+}
+
+#brandon {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+@media screen and (max-width:600px){
+    #cabeza{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,11 @@
+.margen{
+    display: table-row;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 3px solid black;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
